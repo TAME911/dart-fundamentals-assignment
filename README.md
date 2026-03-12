@@ -60,14 +60,15 @@ multiply(10, 4) = 40
 divide(10, 4) = 2.5  
 divide(10, 0) = Error: Cannot divide by zero  
 
-// Assignment Completion Checklist
-Task 1 – Number Analysis App
+## Assignment Completion Checklist
+
+# Task 1 – Number Analysis App
 - Implemented using typed List<int>
 - Computes maximum, minimum, sum, and average
 - Utilizes loops and functions
 - Produces clear output
 
-Task 2 – Async Calculator App
+# Task 2 – Async Calculator App
 - Implemented as OOP class Calculator
 - Performs addition, subtraction, multiplication, division
 - Includes exception handling for division by zero
