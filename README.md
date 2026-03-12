@@ -1,7 +1,8 @@
-name:- Tamene wolde ID;- ATE/5140/15
-Course: Mobile Application Development  
-Program: Software Engineering  
- 
+NAME :-   Tamene wolde   
+ID;-   ATE/5140/15
+Program:   Software Engineering  
+Course:    Mobile Application Development 
+TITLE; Dart Fundamentals Assignment
 ## Assignment Description
 This repository contains the solution for Programming Assignment 1
 for the Mobile Application Development course. The assignment
@@ -27,4 +28,3 @@ It also demonstrates:
 - Object-Oriented Programming (OOP)
 - Exception handling for division by zero
 - Asynchronous programming using async and await
-
