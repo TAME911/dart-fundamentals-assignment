@@ -1,4 +1,4 @@
-## Dart Fundamentals Assignment
+# Dart Fundamentals Assignment
 
 Name: Tamene Wolde  
 ID: ATE/5140/15  
@@ -16,11 +16,11 @@ This program analyzes a list of integers and computes the following:
 - Sum of numbers
 - Average value
 
-Implementation details:
+## Implementation details:
 - Utilizes loops and functions
 - Employs typed List<int>
 
-Function Descriptions:
+## Function Descriptions:
 - findMax: Returns the largest number in the list
 - findMin: Returns the smallest number in the list
 - calculateSum: Returns the sum of all numbers
@@ -45,7 +45,7 @@ Additional features:
 - Exception handling for division by zero
 - Asynchronous programming using async and await
 
-Method Descriptions:
+## Method Descriptions:
 - add: Adds two numbers
 - subtract: Subtracts the second number from the first
 - multiply: Multiplies two numbers
@@ -60,7 +60,8 @@ multiply(10, 4) = 40
 divide(10, 4) = 2.5  
 divide(10, 0) = Error: Cannot divide by zero  
 
-#Repository Structure
+## Repository Structure
+
 ┃
 ┣━ task1
 ┃   ┗━ number_analysis.dart
@@ -71,7 +72,7 @@ divide(10, 0) = Error: Cannot divide by zero
 ┣━ reflection.md
 ┗━ README.md
 
-# Assignment Completion Checklist
+## Assignment Completion Checklist
 
 ## Task 1 – Number Analysis App
 - Implemented using typed List<int>
@@ -86,7 +87,7 @@ divide(10, 0) = Error: Cannot divide by zero
 - Implements async/await for asynchronous computation
 - Produces clear output
 
-#General Requirements
+# General Requirements
 - README.md contains student information and assignment description
 - reflection.md included with learning reflections
 - Repository structure conforms to assignment specifications
