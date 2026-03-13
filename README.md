@@ -1,4 +1,4 @@
-# Dart Fundamentals Assignment
+## Dart Fundamentals Assignment
 
 Name: Tamene Wolde  
 ID: ATE/5140/15  
@@ -60,22 +60,33 @@ multiply(10, 4) = 40
 divide(10, 4) = 2.5  
 divide(10, 0) = Error: Cannot divide by zero  
 
-## Assignment Completion Checklist
+#Repository Structure
+┃
+┣━ task1
+┃   ┗━ number_analysis.dart
+┃
+┣━ task2
+┃   ┗━ calculator_app.dart
+┃
+┣━ reflection.md
+┗━ README.md
 
-# Task 1 – Number Analysis App
+# Assignment Completion Checklist
+
+## Task 1 – Number Analysis App
 - Implemented using typed List<int>
 - Computes maximum, minimum, sum, and average
 - Utilizes loops and functions
 - Produces clear output
 
-# Task 2 – Async Calculator App
+## Task 2 – Async Calculator App
 - Implemented as OOP class Calculator
 - Performs addition, subtraction, multiplication, division
 - Includes exception handling for division by zero
 - Implements async/await for asynchronous computation
 - Produces clear output
 
-General Requirements
+#General Requirements
 - README.md contains student information and assignment description
 - reflection.md included with learning reflections
 - Repository structure conforms to assignment specifications
