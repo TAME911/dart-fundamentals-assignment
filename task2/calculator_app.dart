@@ -1,19 +1,12 @@
-// Task 2: Async Calculator App
-// Name: TAMENE Wolde
-
 import 'dart:async';
 
 class Calculator {
   final String name;
-
   Calculator(this.name);
-
   double add(double a, double b) => a + b;
-
   double subtract(double a, double b) {
     return a - b;
   }
-
   double multiply(double a, double b) {
     return a * b;
   }
@@ -44,9 +37,7 @@ class Calculator {
       default:
         throw ArgumentError('Unknown operation: $op');
     }
-
     await Future.delayed(Duration(seconds: 1, milliseconds: 500));
-
     return result;
   }
 
@@ -62,9 +53,7 @@ class Calculator {
 
 Future<void> main() async {
   final calc = Calculator('MyCalculator');
-
   print('--- ${calc.name} ---');
-
   await calc.displayResult(10, 4, 'add');
   await calc.displayResult(10, 4, 'subtract');
   await calc.displayResult(10, 4, 'multiply');
