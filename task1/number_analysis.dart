@@ -1,6 +1,3 @@
-// Task 1: Number Analysis App
-// Name: TAMENE Wolde   ATE/5140/15
-// Returns the largest number in the list
 int findMax(List<int> numbers) {
   int max = numbers[0];
   for (int num in numbers) {
